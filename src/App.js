@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Cat from './components/Cat.jsx';
+import Cat from './components/Cat.js';
 
 const cats = [
   {
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
     {/* <React.Fragment className="App"> */}
-      {cats.map(cat => <Cat name={cat.name} src={cat.url}></Cat>
+      {cats.map(cat => <Cat name={cat.name} url={cat.url}></Cat>
       )}
       {/* </React.Fragment> */}
     </div>
