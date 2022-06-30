@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Cat from './components/Cat.js';
+import Cat from './components/Cat.jsx';
 
 const cats = [
   {
