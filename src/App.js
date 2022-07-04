@@ -14,6 +14,27 @@ const cats = [
     url: 'https://avatars.mds.yandex.net/get-altay/2815220/2a000001720e13d98bb173408c359c612c5a/XXXL'
 }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function App() {
   return (
     <div className="App">
